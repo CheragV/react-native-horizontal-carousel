@@ -1,6 +1,6 @@
 {
-  "name": "HorizontalCarosel",
-  "version": "0.0.1",
+  "name": "react-native-horizontal-carousel",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -25,5 +25,21 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "Simple Horizontal Carousel for React Native",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheragV/react-native-horizontal-carousel.git"
+  },
+  "keywords": [
+    "react-native-carousel",
+    "react-native-horizontal"
+  ],
+  "author": "Cherag Verma <cheragverma0001@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CheragV/react-native-horizontal-carousel/issues"
+  },
+  "homepage": "https://github.com/CheragV/react-native-horizontal-carousel#readme"
 }
