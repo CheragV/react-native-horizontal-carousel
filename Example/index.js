@@ -8,21 +8,9 @@
 
 import React from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  View,
-  Dimensions,
   Text
 } from 'react-native';
 import HorizontalCarousel from './src'
-
-const {height: HEIGHT, width: WIDTH} = Dimensions.get('window')
-
-
-const styles = StyleSheet.create({
-  scrollView: {
-  }
-});
 
 const LIST_DATA = [
   {
@@ -53,8 +41,6 @@ const LIST_DATA = [
 
 const App: () => React$Node = () => {
   return (
-    <>
-      <SafeAreaView>
         <HorizontalCarousel
           // containerWidth = {300}
           renderRow = {(index, item) => (
@@ -67,8 +53,6 @@ const App: () => React$Node = () => {
           forwardText = {'next'}
           backwardText = {'previous'}
         />
-      </SafeAreaView>
-    </>
   );
 };
 
